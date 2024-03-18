@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biografi</title>
+
+  <!-- CSS links -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Fonts 1 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+  <!-- Font 2 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Warning Massage Responsive -->
+  <!-- <div class="warning-message">
+    Maaf, tampilan situs ini tidak dioptimalkan untuk layar kecil. Silakan gunakan perangkat dengan layar lebih besar untuk pengalaman terbaik.
+  </div> -->
+
+  <!-- navbar start -->
+  <nav class="navcon">
+    <div class="name-page tx-1">Biografi.</div>
+    <div class="nav-list">
+      <ul>
+        <li><a href="#main" class="nav-link">Home</a></li>
+        <li><a href="#definition" class="nav-link">Definition</a></li>
+        <li><a href="#profile" class="nav-link">Profile</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- navbar end -->
+
+  <!-- main page start -->
+  <section class="main-page" id="main">
+
+    <!-- main content start -->
+    <div class="main-content">
+      <div class="intro">
+        Hello,<br>
+        <h1 class="tx-1">I'm <div class="text-container"></div></h1><br>
+        <span class="sub-intro">Constructor of Globality Robotics Engineering and Development</span>
+      </div>
+      <div class="background-page">
+        <img src="assets/logo.png" alt="Greed Logo" id="main-logo">
+      </div>
+    </div>
+    <!-- main content end -->
+  </section>
+  <!-- main page end -->
+
+  <!-- biografi definition start -->
+  <section class="definition" id="definition">
+    <h1 class="txt-title"><span class="tx-2">Biography</span> Definition</h1>
+    <div class="definition-container">
+      <div class="menu-container">
+        <button class="menu-link active" type="button" id="pengertianButton" onclick="pengertianSection()">Pengertian</button>
+        <button class="menu-link" type="button" id="tujuanManfaatButton" onclick="tujuanManfaatSection()">Tujuan & Manfaat</button>
+        <button class="menu-link" type="button" id="ciriButton" onclick="ciriSection()">Ciri-Ciri</button>
+        <button class="menu-link" type="button" id="strukturButton" onclick="strukturSection()">Struktur</button>
+        <button class="menu-link" type="button" id="kaidahButton" onclick="kaidahSection()">Kaidah</button>
+      </div>
+      <div class="explanation-container">
+        <div class="expl-link link1 active" id="pengertian">
+          Teks <a href="https://www.bing.com/ck/a?!&&p=07b3c48c59c79ac6JmltdHM9MTcwOTY4MzIwMCZpZ3VpZD0zNGY4NTk0Ny0xYjc5LTZjNzgtMWViNi00YTFkMWEyZjZkZjkmaW5zaWQ9NTIwOQ&ptn=3&ver=2&hsh=3&fclid=34f85947-1b79-6c78-1eb6-4a1d1a2f6df9&psq=biography+wikipedia&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvQmlvZ3JhcGh5&ntb=1" class="tx-link-1" target="_blank">biografi</a> adalah teks yang berisikan kisah suatu tokoh dalam mengarungi kehidupannya. Teks ini ditulis oleh seseorang agar tokoh tersebut dapat diteladani banyak orang. <br>
+          <br>
+          Mungkin kamu pernah mendengar istilah teks autobiografi. <a href="https://www.bing.com/ck/a?!&&p=b8ddbd28639de14dJmltdHM9MTcwOTY4MzIwMCZpZ3VpZD0zNGY4NTk0Ny0xYjc5LTZjNzgtMWViNi00YTFkMWEyZjZkZjkmaW5zaWQ9NTIwOQ&ptn=3&ver=2&hsh=3&fclid=34f85947-1b79-6c78-1eb6-4a1d1a2f6df9&psq=autobiography+wikipedia&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvQXV0b2Jpb2dyYXBoeQ&ntb=1" class="tx-link-1" target="_blank">Autobiografi</a> adalah teks yang berisikan kisah hidup seorang tokoh yang ditulis oleh dirinya sendiri. <br>
+        </div>
+        <div class="expl-link link2" id="tujuan_manfaat">
+          <span class="tx-2" style="text-decoration: underline;">Tujuan:</span><br>
+          Teks biografi bertujuan untuk menceritakan kehidupan seseorang (tokoh terkenal maupun figur sejarah), mulai dari latar belakang keluarga, pendidikan, dan pengalaman hidupnya.<br>
+          <br>
+          <span class="tx-2" style="text-decoration: underline;">Manfaat:</span><br>
+          <br>
+          <ul>
+            <li>Lebih mengenal tokoh-tokoh terkenal/berpengaruh melalui riwayat hidupnya.</li><br>
+            <li>Dapat melihat sisi perjuangan hidup seseorang hingga mencapai kesuksesan.</li><br>
+            <li>Memotivasi diri sendiri untuk bisa sukses dan pantang menyerah seperti kisah sang tokoh.</li><br>
+            <li>Menjadi inspirasi dalam bekerja keras untuk mencapai hasil yang diinginkan.</li>
+          </ul>
+        </div>
+        <div class="expl-link link3" id="ciri2">
+          <ul>
+            <li>Berisikan fakta yang didasarkan pada pengalaman hidup tokoh.</li><br>
+            <li>Disajikan dalam bentuk narasi.</li><br>
+            <li>Menceritakan peristiwa penting yang dialami sang tokoh sehingga bisa dijadikan teladan bagi pembaca.</li>
+          </ul>
+        </div>
+        <div class="expl-link link4" id="struktur">
+          <span class="tx-2" style="text-decoration: underline;">1. Orientasi </span><br>
+          Bagian ini mencakup pengenalan tokoh dan latar belakang kisah atau peristiwa yang akan diceritakan pada bagian selanjutnya. <br>
+          <br>
+          <span class="tx-2" style="text-decoration: underline;">2. Kejadian atau Peristiwa Penting</span><br>
+          Pada bagian ini, diceritakan tentang rangkaian peristiwa, yaitu kejadian-kejadian utama yang dialami tokoh. Bagian ini disusun secara kronologis sesuai urutan waktu.<br> <br>
+          <span class="tx-2" style="text-decoration: underline;">3. Reorientasi </span><br>
+          Bagian ini berisi komentar atau pernyataan simpulan mengenai rangkaian peristiwa yang telah diceritakan sebelumnya.<br>
+        </div>
+        <div class="expl-link link5" id="kaidah">
+          <ul>
+            <li>Menggunakan kata ganti orang ketiga tunggal seperti ‘ia’, ‘dia’, ‘beliau’, dan ‘-nya’. Kata ganti ini biasanya dipakai secara bervariasi untuk penyebutan nama tokoh atau panggilan tokoh.</li><br>
+            <li>Menggunakan kata ganti penunjuk yang dipakai untuk menggantikan hal yang telah disampaikan sebelumnya. Kata ganti penunjuk ditandai dengan kata ‘ini’ dan ‘itu’.</li><br>
+            <li>Menggunakan penanda waktu berupa konjungsi seperti ‘sejak’ dan ‘ketika’.</li><br>
+            <li>Menggunakan kata depan yang menunjukkan keterangan waktu seperti ‘pada’.</li><br>
+            <li>Menggunakan penanda waktu berupa nomina seperti ‘nantinya’ atau ‘kelak’.</li><br>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- biografi definition start -->
+
+  <!-- profile start -->
+  <section class="profile" id="profile">
+    <div class="poto-container-rl">
+      <div class="poto-profile" id="poto-profile">
+        <div class="poto-profile-bg"></div>
+        <div class="poto-container">
+          <img src="assets/WhatsApp Image 2024-03-18 at 13.56.04_e5505d63.jpg" alt="Photo Profile" width="100%" height="100%">
+        </div>
+      </div>
+    </div>
+    <div class="profile-information">
+      <p>Beliau adalah seorang guru dengan spesialis robotik dan rpl.
+        Lulusan dari universitas stikom dengan karya ilmiah robotik terbaik.
+      </p>
+      <br>
+      <br>
+      <address>
+        Nama : Ida Bagus Maha Indra Prasada, S.Kom <br>
+        <br>
+        Tempat Lahir : Sandan Dauh yeh <br>
+        <br>
+        Tanggal Lahir : 27 Januari 1999 <br>
+        <br>
+        Status Hubungan : Belum Menikah <br>
+      </address>
+    </div>
+  </section>
+  <!-- profile end -->
+
+  <!-- experience start -->
+  <section class="experience" id="experience">
+    <h1 class="txt-title"><span class="tx-2">EXPERIENCE</span></h1>
+    <div class="card-exp">
+      <div class="card-exp-list" id="card-1">
+        <span>Computer Engineering</span>
+      </div>
+      <div class="card-exp-list" id="card-2">
+        <span>Robotics Engineering and Development</span>
+      </div>
+      <div class="card-exp-list" id="card-3">
+        <span>Code & Programming</span>
+      </div>
+    </div>
+  </section>
+  <!-- experience end -->
+
+  <!-- achievement start -->
+  <section class="achievement" id="achievement">
+    <h1 class="txt-title tx-2" style="margin-bottom: 30px;">Education</h1>
+    <div class="achievement-items" id="sd">
+      <!-- <img src="assets/stikom.jpeg" alt="Kuliah di ITB STIKOM BALI" class="acv-photo"> -->
+      <div class="acv-info">
+        <h1><h1>Profil Seorang Pendidik dan Penggerak Robotika: <span class="tx-2">Ida Bagus Maha Indra Prasada, S.Kom</span></h1>
+
+          <span class="tx-2">Ida Bagus Maha Indra Prasada</span>, seorang sosok pendidik yang berdedikasi dan penuh semangat dalam bidang robotika, telah menorehkan jejak yang menginspirasi dalam dunia pendidikan kejuruan. Lahir dan dibesarkan dalam lingkungan yang belum terungkapkan secara rinci, Beliau telah mengembangkan minatnya terhadap teknologi dan penyelesaian masalah sejak masa remajanya. <br>
+          
+          <h1 class="tx-2">Awal Perjalanan dan Pendidikan</h1>
+
+          Perjalanan Beliau dimulai dari rasa ingin tahu yang menggebu di masa kecilnya. Keinginannya untuk menggali lebih dalam dalam bidang teknologi membawanya memilih jalur pendidikan kejuruan setelah menyelesaikan pendidikan dasar. Dengan tekad yang kuat, ia melanjutkan pendidikan di SMKN 2 Tabanan dengan mengambil jurusan Rekayasa Perangkat Lunak (RPL), sebuah keputusan yang menandai langkah awalnya dalam menyelami dunia komputer dan teknologi. <br>
+          
+          Selama masa sekolahnya di SMK tersebut, Beliau juga menjalani program Praktik Kerja Lapangan (Prakerin) di Palapa Komputer Tabanan, yang membantunya memperdalam pengetahuan dan keterampilan praktis dalam bidang teknologi informasi. Meskipun demikian, keberhasilan akademisnya tidak selalu tercermin dalam pencapaiannya sebagai juara umum di sekolahnya, namun hal ini tidak pernah menghentikan semangatnya untuk terus belajar dan berkembang. <br>
+          
+          <h1 class="tx-2">Perjalanan Karier</h1>
+          
+          Setelah menamatkan pendidikan sarjananya di STIKOM Bali, Beliau memulai karier yang menggabungkan dua passion-nya: pendidikan dan robotika. Dengan keyakinan bahwa pengajaran merupakan cara terbaik untuk menyebarkan pengetahuan dan menginspirasi generasi mendatang, ia memilih jalur menjadi instruktur robotika di sekolah kejuruan. Dengan semangat yang menyala-nyala, ia berbagi pengetahuannya dan mencoba menggugah minat siswa-siswanya untuk terlibat dalam dunia robotika. <br>
+          
+          Pendekatan pengajaran Beliau tidak hanya konvensional, ia terus mencari cara inovatif untuk menarik perhatian siswanya dan memupuk kreativitas mereka. Sebagai Guru Pembimbing di Lab Robotika, ia menyisipkan pembelajaran bahasa pemrograman ke dalam kurikulum robotika, memberikan siswa keterampilan dunia nyata dan pengalaman praktis. Di kelasnya, ide-ide brilian bermunculan, dan siswa-siswanya bekerja sama dalam proyek-proyek yang mengasah keterampilan problem-solving dan membebaskan <br> imajinasi mereka.
+          
+          <h1 class="tx-2">Warisan dan Inspirasi</h1>
+          
+          Saat ini, Beliau tetap menjadi pionir dalam dunia pendidikan kejuruan dan robotika. Komitmennya yang tak kenal lelah terhadap keunggulan dalam mengajar dan semangatnya yang membara dalam menginspirasi siswa-siswa masa depan menjadi sumber inspirasi bagi banyak orang. Dedikasinya dalam membentuk lanskap pendidikan kejuruan untuk masa mendatang telah menciptakan jejak yang tak terlupakan, menandai perjalanan seorang pendidik dan penggerak robotika yang luar biasa. <br>
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- achievement end -->
+
+  <!-- Javascript source -->
+  <script src="script.js"></script>
+</body>
+</html>
